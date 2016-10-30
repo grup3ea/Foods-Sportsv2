@@ -1,6 +1,8 @@
 .idea/
 node_modules/
-public/node_modules/
+public/node_modules
 public/typings/
 /public/npm-debug.log
+/public/ts-node
 
+public/ts-node/af11da78c78774abd2cd31be6c7ed5f02b52472c/
