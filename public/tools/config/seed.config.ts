@@ -144,7 +144,7 @@ export class SeedConfig {
    * `index.html`.
    * @type {string}
    */
-  APP_TITLE = 'VoiceGen';
+  APP_TITLE = 'Food&Sports';
 
   /**
    * The base folder of the applications source files.
@@ -546,6 +546,7 @@ function filterDependency(env: string, d: InjectableDependency): boolean {
   if (!(d.env instanceof Array)) {
     (<any>d).env = [d.env];
   }
+  //noinspection TypeScriptValidateTypes
   return d.env.indexOf(env) >= 0;
 }
 
