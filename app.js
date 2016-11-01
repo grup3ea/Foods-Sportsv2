@@ -37,6 +37,9 @@ app.use(function(req, res, next) {
 var users = require('./routes/users');
 app.use('/server', users);
 
+var loginroutes = require('./routes/loginroutes')
+app.use('/', loginroutes);
+
 
 
 /*Views y HTML*/
